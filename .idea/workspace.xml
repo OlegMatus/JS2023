@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1392f65-86eb-439d-81f3-7eb0c67566e1" name="Changes" comment="lesson4">
+    <list default="true" id="e1392f65-86eb-439d-81f3-7eb0c67566e1" name="Changes" comment="lesson5(arrow functions)">
+      <change afterPath="$PROJECT_DIR$/Lesson5/HW5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson5/hw5.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson3/additional1..js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson3/additional1..js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson4/hw4.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson4/hw4.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +101,16 @@
       <workItem from="1683747568844" duration="1216000" />
       <workItem from="1683795048913" duration="15696000" />
       <workItem from="1683813150086" duration="3522000" />
-      <workItem from="1683816717833" duration="2560000" />
+      <workItem from="1683816717833" duration="3980000" />
+      <workItem from="1683913809990" duration="2117000" />
+      <workItem from="1684070770163" duration="8418000" />
+      <workItem from="1684152168820" duration="1925000" />
+      <workItem from="1684156452197" duration="2071000" />
+      <workItem from="1684159392593" duration="120000" />
+      <workItem from="1684159592332" duration="262000" />
+      <workItem from="1684159918134" duration="8580000" />
+      <workItem from="1684174785569" duration="3000" />
+      <workItem from="1684227290454" duration="10507000" />
     </task>
     <task id="LOCAL-00001" summary="lesson4">
       <created>1683817800010</created>
@@ -113,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683818698294</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lesson4">
+      <created>1683819496830</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683819496830</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,7 +154,8 @@
     <MESSAGE value="lesson11" />
     <MESSAGE value="less" />
     <MESSAGE value="lesson4" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson4" />
+    <MESSAGE value="lesson5(arrow functions)" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson5(arrow functions)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
