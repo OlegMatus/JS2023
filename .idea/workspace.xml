@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1392f65-86eb-439d-81f3-7eb0c67566e1" name="Changes" comment="lesson5(arrow functions)">
-      <change afterPath="$PROJECT_DIR$/Lesson5/HW5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson5/hw5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson3(loop)/additional1..js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson6(method massive)/HW6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson6(method massive)/hw6.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/additional1..js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson3/additional1..js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4/hw4.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson4/hw4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson3/HW3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson3(loop)/HW3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson3/additional 1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson3(loop)/additional 1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson3/additional1..js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson3/hw3.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson3(loop)/hw3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson4/HW4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson4(classic function)/HW4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson4/hw4.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson4(classic function)/hw4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson5/HW5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson5(arrow function)/HW5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson5/hw5.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson5(arrow function)/hw5.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +117,11 @@
       <workItem from="1684159592332" duration="262000" />
       <workItem from="1684159918134" duration="8580000" />
       <workItem from="1684174785569" duration="3000" />
-      <workItem from="1684227290454" duration="10507000" />
+      <workItem from="1684227290454" duration="10748000" />
+      <workItem from="1684256591479" duration="4098000" />
+      <workItem from="1684269147721" duration="6023000" />
+      <workItem from="1684335985653" duration="3927000" />
+      <workItem from="1684401641017" duration="19794000" />
     </task>
     <task id="LOCAL-00001" summary="lesson4">
       <created>1683817800010</created>
@@ -133,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683819496830</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="lesson5(arrow functions)">
+      <created>1684238419601</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684238419601</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
