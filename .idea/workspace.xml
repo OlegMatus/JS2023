@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1392f65-86eb-439d-81f3-7eb0c67566e1" name="Changes" comment="lesson5(arrow functions)">
-      <change afterPath="$PROJECT_DIR$/Lesson3(loop)/additional1..js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson6(method massive)/HW6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson6(method massive)/hw6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson8(constructors_class)/HW8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson8(constructors_class)/hw8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson9(DOM)/HW9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson9(DOM)/hw9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/additional/Ad2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/additional/Ad6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/additional/ad2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/additional/ad6.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/HW3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson3(loop)/HW3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/additional 1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson3(loop)/additional 1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/additional1..js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/hw3.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson3(loop)/hw3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4/HW4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson4(classic function)/HW4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4/hw4.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson4(classic function)/hw4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson5/HW5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson5(arrow function)/HW5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson5/hw5.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson5(arrow function)/hw5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson3(loop)/additional1..js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson3(loop)/additional1..js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson6(method massive)/hw6.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson6(method massive)/hw6.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -122,6 +121,21 @@
       <workItem from="1684269147721" duration="6023000" />
       <workItem from="1684335985653" duration="3927000" />
       <workItem from="1684401641017" duration="19794000" />
+      <workItem from="1684429451929" duration="4139000" />
+      <workItem from="1684513856505" duration="595000" />
+      <workItem from="1684666106320" duration="13763000" />
+      <workItem from="1684850316085" duration="7235000" />
+      <workItem from="1684918876022" duration="3607000" />
+      <workItem from="1684923070607" duration="7929000" />
+      <workItem from="1684935190584" duration="8260000" />
+      <workItem from="1684943828868" duration="2190000" />
+      <workItem from="1685007015315" duration="4981000" />
+      <workItem from="1685018519018" duration="5434000" />
+      <workItem from="1685093096433" duration="16733000" />
+      <workItem from="1685267038059" duration="12002000" />
+      <workItem from="1685358651573" duration="3176000" />
+      <workItem from="1685433898314" duration="14264000" />
+      <workItem from="1685461097300" duration="7705000" />
     </task>
     <task id="LOCAL-00001" summary="lesson4">
       <created>1683817800010</created>

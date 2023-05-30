@@ -195,20 +195,89 @@ for (let k = 0; k <= 100; k++) {
 // стоврити масив книжок (назва, кількість сторінок, автори , жанри).
 // -знайти наібльшу книжку.
 let books = [
-   {title: 'Сліди на дорозі', pages: 375, author: 'Валерій Маркус', genre: 'сучасна проза'},
-   {title: 'Кобзар', pages: 416, author: 'Тарас Шевченко', genre: 'українська класика'},
-   {title: 'Розум убивці', pages: 400, author: 'Майк Омер', genre: 'детектив'},
-   {title: 'Я,Паштєт і армія', pages: 224, author: 'Кузьма Скрябін', genre: 'українська література'},
-   {title: 'Інтернат', pages: 336, author: 'Сергій Жадан', genre: 'сучасна проза'}
+   {title: 'Сліди на дорозі', pages: 375, authors: 'Валерій Маркус', genres: 'сучасна проза'},
+   {title: 'Кобзар', pages: 416, authors: 'Тарас Шевченко', genres: 'українська класика'},
+   {title: 'Розум убивці', pages: 400, authors: 'Майк Омер', genres: 'детектив'},
+   {title: 'Я,Паштєт і армія', pages: 224, authors: 'Кузьма Скрябін', genre: 'українська література'},
+   {title: 'Інтернат', pages: 336, authors: ['Майк Омер, Сергій Жадан'], genres: ['українська література, сучасна проза']},
+   {title: 'Момент еврики. Ага-реакції, творчий інсайт і мозок', pages: 366, authors: ['Джон КуніосМарк Біман'], genres: 'Психологія'},
+   {title: 'То є Львів. Колекція міських історій', pages: 366, authors: ['Маряна Савка, Юрій Андрухович, Маріанна Кіяновська, Галина Вдовиченко, Костянтин Москалець, Віктор Морозов'], genres: ['Художня Література, Українська Література, Сучасна Проза']},
 ];
 let maxBook = books[0];
-for (let k = 0; k < books.length; k++) {
+for (let k = 1; k < books.length; k++) {
  if (books[k].pages > maxBook.pages){
     maxBook = books[k]
  }
 }
 console.log(maxBook)
 // - знайти книжку/ки з найбільшою кількістю жанрів
+let maxGenresCount = 0;
+let booksWithMaxGenres = [];
+for (let k = 0; k < books.length; k++) {
+   const book = books[k];
+   const genres = book.genres;
+   if (Array.isArray(genres) && genres.length > maxGenresCount) {
+      maxGenresCount = genres.length;
+      booksWithMaxGenres = [book];
+   } else if (Array.isArray(genres) && genres.length === maxGenresCount) {
+      booksWithMaxGenres.push(book)
+   }
+}
+console.log(booksWithMaxGenres)
+
 // - знайти книжку/ки з найдовшою назвою
+let longestTitle = '';
+let longestBooks = [];
+for (let k = 0; k < books.length; k++) {
+let book = books[k];
+let title = book.title;
+if (title.length > longestTitle.length){
+   longestTitle = title;
+   longestBooks = [book];
+}else if (title.length === longestTitle) {
+   longestBooks.push(book);
+}
+}
+console.log(longestBooks)
 // - знайти книжку/ки які писали 2 автори
-// - знайти книжку/ки які писав 1 автор
+
+function findBooksByAuthors (books, author1, author2) {
+   const result = [];
+   for (let i = 0; i < result.length; i++) {
+      const bookAuthor = books[i];
+
+      if (Array.isArray(bookAuthor.authors)) {
+         if (bookAuthor.authors.includes(author1) && bookAuthor.authors.includes(author2)) {
+            result.push(bookAuthor);
+         } else {
+            const authors = bookAuthor.authors.split(',');
+            if (authors.includes(author1) && authors.includes(author2)) {
+               result.push(bookAuthor);
+            }
+         }
+      }
+   }
+      return result;
+}
+   console.log(findBooksByAuthors(books, 'Майк Омер', 'Сергій Жадан'))
+// const author1 = 'Майк Омер';
+// const author2 = 'Сергій Жадан';
+// const booksByAuthors = findBooksByAuthors(books, author1, author2);
+// console.log(booksByAuthors);
+// console.log(findBooksByAuthors(books, 'Майк Омер', 'Сергій Жадан'))
+// // - знайти книжку/ки які писав 1 автор
+let author = '';
+let booksByAuthor = [];
+for (let k = 0; k < books.length; k++) {
+  let book = books[k];
+  if (Array.isArray(book.authors)) {
+     if (book.authors.includes(author)) {
+        booksByAuthor.push(book);
+     }
+     } else {
+        if(book.authors === author){
+           booksByAuthor.push(book);
+        }
+     }
+}
+console.log(booksByAuthor)
