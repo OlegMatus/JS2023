@@ -2,7 +2,6 @@
 let divElement = document.createElement('div');
 //     - додати йому класи wrap, collapse, alpha, beta
 divElement.classList.add('wrap', 'collapse', 'alpha', 'beta');
-console.log(divElement)
 // - додати стилі(довільні значення) : колір фону, колір тексту, розмір тексту
 divElement.style.backgroundColor = "red";
 divElement.style.color = "black";
@@ -10,11 +9,7 @@ divElement.style.fontSize = "15px";
 // - додати цей блок в body.
 document.body.appendChild(divElement);
 // - клонувати його повністю, та додати клон в body.
-let divClone = Object.assign(divElement);
-document.body.append(divClone);
-console.log(divClone)
-// let divClone = JSON.stringify(divElement)
-// console.log(divClone)
+document.body.appendChild(divElement.cloneNode(true));
 // - Є масив:
 //     ['Main','Products','About us','Contacts']
 // Зробити ul в середині якої будуть лежати елементи масиву (кожен в своєму li)
@@ -45,13 +40,12 @@ let coursesAndDurationArray1 = [
     {title: 'FullStack', monthDuration: 7},
     {title: 'Frontend', monthDuration: 4}
 ];
-for (let i = 0; i < coursesAndDurationArray1.length; i++) {
-    let course = coursesAndDurationArray1[i]
+for (let course of coursesAndDurationArray1) {
+    // let course = coursesAndDurationArray1[i]
     let div = document.createElement('div');
- let title = document.createElement('title');
- title.innerText = course.title;
- let monthD = document.createElement('monthDuration');
- monthD.innerText = course.monthDuration;
+    let title = document.createElement('title');
+    let monthD = document.createElement('monthDuration');
+ div.innerText = `${course.title} ${course.monthDuration}`;
  div.append(title, monthD);
 document.body.appendChild(div)
 }
