@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .wrapper {
+            border: red solid 4px;
+        }
+        .flex {
+            display: flex;
+        }
+        .text-center {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<script>
+  // let form2 = document.forms['form2'];
+  // form2.onsubmit = function saveSession(e) {
+  //   e.preventDefault();
+  const json = localStorage.getItem('sessions')
+  let sessions = json ? JSON.parse(json) : [];
+    sessions.push ({
+      date: new Date().toISOString(),
+    });
+    localStorage.setItem('sessions', JSON.stringify(sessions));
+
+</script>
+<h1>Hello index html</h1>
+</body>
+</html>

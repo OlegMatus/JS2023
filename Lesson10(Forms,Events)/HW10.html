@@ -6,23 +6,36 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>index.html</title>
+    <style>
+.wrapper {
+    width: 300px;
+    padding: 10px;
+}
+.item {
+    margin-top: 10px;
+    border: 2px red solid;
+}
+
+    </style>
 </head>
 <body>
-<form name="form1">
-    <input type="text" name = 'name' value = "Dima">
-    <br>
-    <input type="text" name = 'surname' value = "Kokos">
-    <br>
-    <input type="number" name = 'age' value = "29">
-    <div>
-    </div>
-<div id="number block">10</div>
-</form>
-<form name="form2">
+<!--<form name="form1">-->
+<!--   <label class="wrapper">Name:<input type="text" name = 'name'></label>-->
+<!--    <br>-->
+<!--    <label class="wrapper">Surname:<input type="text" name = 'surname'></label>-->
+<!--    <br>-->
+<!--    <label class="wrapper">Age:<input type="number" name = 'age'></label>-->
+<!--    <br>-->
+<!--        <button>Send</button>-->
 
-<h1>Hello index.html</h1>
+<!--</form>-->
+<!--<h1>Count:<i id="number block">0</i></h1>-->
+<!--</form>-->
+<button id="prev" disabled = "disabled">Prev</button>
+<button id="next">Next</button>
+<div id="wrapper"></div>
+<script src="hw10.js">
+</script>
 
-</form>
-<script src="hw10.js"></script>
 </body>
 </html>
