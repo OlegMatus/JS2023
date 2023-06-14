@@ -5,23 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1392f65-86eb-439d-81f3-7eb0c67566e1" name="Changes" comment="lesson12(fetch &amp; searchParams)">
-      <change afterPath="$PROJECT_DIR$/Lesson10(Forms,Events)/HW10.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson12/HW12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson12/HW12users.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson12/hw12.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson12/user-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/additional/additional11/AD11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/additional/additional11/ad11.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/additional/additional4/AD4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/additional/additional4/ad4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson12/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/user-info/uDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/user-info/user-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/user-posts/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/user-posts/post-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/users/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProject/users/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson10(Forms,Events)/HW10.2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson10(Forms,Events)/HW10.2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson10(Forms,Events)/HW10.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson10(Forms,Events)/HW10.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesson10(Forms,Events)/hw10.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson10(Forms,Events)/hw10.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/additional/Ad2.html" beforeDir="false" afterPath="$PROJECT_DIR$/additional/additional2/Ad2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/additional/Ad6.html" beforeDir="false" afterPath="$PROJECT_DIR$/additional/additional6/Ad6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/additional/ad2.js" beforeDir="false" afterPath="$PROJECT_DIR$/additional/additional2/ad2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/additional/ad6.js" beforeDir="false" afterPath="$PROJECT_DIR$/additional/additional6/ad6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson12/HW12users.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson12/HW12users.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson12/hw12.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson12/hw12.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson12/user-details.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -73,18 +70,29 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lenovo/IdeaProjects/JS Lessons/miniProect/js&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\IdeaProjects\JS Lessons\miniProect\js" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lenovo\IdeaProjects\JS Lessons\additional\additional6" />
-      <recent name="C:\Users\lenovo\IdeaProjects\JS Lessons\additional\additional2" />
+      <recent name="C:\Users\lenovo\IdeaProjects\JS Lessons\miniProject\user-info" />
+      <recent name="C:\Users\lenovo\IdeaProjects\JS Lessons\miniProect\users" />
+      <recent name="C:\Users\lenovo\IdeaProjects\JS Lessons\miniProect\user-info" />
+      <recent name="C:\Users\lenovo\IdeaProjects\JS Lessons\miniProject1\info" />
+      <recent name="C:\Users\lenovo\IdeaProjects\JS Lessons\miniProject1\users" />
     </key>
   </component>
   <component name="RunManager">
@@ -101,6 +109,9 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\lenovo\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e1392f65-86eb-439d-81f3-7eb0c67566e1" name="Changes" comment="" />
@@ -159,7 +170,24 @@
       <workItem from="1686079016267" duration="10213000" />
       <workItem from="1686145467392" duration="6496000" />
       <workItem from="1686166397998" duration="3811000" />
-      <workItem from="1686215469871" duration="25181000" />
+      <workItem from="1686215469871" duration="25234000" />
+      <workItem from="1686247690624" duration="6998000" />
+      <workItem from="1686477503496" duration="20616000" />
+      <workItem from="1686506585547" duration="3651000" />
+      <workItem from="1686510361118" duration="3879000" />
+      <workItem from="1686514300177" duration="460000" />
+      <workItem from="1686514804220" duration="8597000" />
+      <workItem from="1686523612336" duration="2060000" />
+      <workItem from="1686592970160" duration="11729000" />
+      <workItem from="1686684315298" duration="11324000" />
+      <workItem from="1686696900359" duration="2059000" />
+      <workItem from="1686726450377" duration="258000" />
+      <workItem from="1686727235694" duration="954000" />
+      <workItem from="1686731846701" duration="5979000" />
+      <workItem from="1686741400654" duration="3046000" />
+      <workItem from="1686753733778" duration="3039000" />
+      <workItem from="1686762286934" duration="6477000" />
+      <workItem from="1686774103117" duration="6603000" />
     </task>
     <task id="LOCAL-00001" summary="lesson4">
       <created>1683817800010</created>
@@ -210,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685641035013</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="lesson12(fetch &amp; searchParams)">
+      <created>1686244701496</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686244701496</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
