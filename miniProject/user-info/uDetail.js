@@ -41,10 +41,8 @@ const postButton = document.getElementById('post-button');
 postButton.addEventListener('click', ()=> {
 fetch(`https://jsonplaceholder.typicode.com/users/${userId}/posts`)
     .then(response => response.json())
-    .then((posts) => {
+    .then(posts => {
         const postContainer = document.getElementsByClassName('posts-container')[0];
-        const postList = document.createElement('div');
-        postList.classList.add('post-container');
         for (const post of posts) {
             const postBlock = document.createElement('div');
             postBlock.classList.add('block-posts');
@@ -52,16 +50,20 @@ fetch(`https://jsonplaceholder.typicode.com/users/${userId}/posts`)
 
             const button = document.createElement('a');
             button.classList.add('post-button');
-            button.textContent = 'post of current user';
+            button.textContent = 'post-detail';
             postBlock.appendChild(button);
-            button.href = `../user-posts/post-details.html/?postId=${post.id}`
+            button.href = `../../user-posts/post-details.html/?postId=${post.id}`;
 
+            // const button = document.createElement('button');
+            // button.classList.add('post-button')
+            // button.innerText = 'post-detail';
+            // postBlock.appendChild(button);
+            //
             // button.onclick = () => {
-            //     location.href = `post-details.html/?postId=${post.id}`;
+            //     location.href = `../../user-posts/post-details.html/?postId=${post.id}`;
             // }
-            postList.appendChild(postBlock);
 
-            postContainer.appendChild(postList);
+            postContainer.appendChild(postBlock);
         }
     });
 })

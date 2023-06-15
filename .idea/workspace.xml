@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1392f65-86eb-439d-81f3-7eb0c67566e1" name="Changes" comment="lesson12(fetch &amp; searchParams)">
-      <change afterPath="$PROJECT_DIR$/Lesson12/details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniProject/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniProject/user-info/uDetail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniProject/user-info/user-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniProject/user-posts/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniProject/user-posts/post-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniProject/users/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniProject/users/main.js" afterDir="false" />
+    <list default="true" id="e1392f65-86eb-439d-81f3-7eb0c67566e1" name="Changes" comment="miniProject(fetch:users,posts,comments)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson10(Forms,Events)/hw10.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson10(Forms,Events)/hw10.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson12/HW12users.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson12/HW12users.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson12/hw12.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson12/hw12.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson12/user-details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniProject/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/miniProject/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniProject/user-info/uDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/miniProject/user-info/uDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniProject/user-info/user-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/miniProject/user-info/user-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniProject/user-posts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/miniProject/user-posts/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniProject/user-posts/post-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/miniProject/user-posts/post-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniProject/users/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/miniProject/users/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,6 +182,9 @@
       <workItem from="1686753733778" duration="3039000" />
       <workItem from="1686762286934" duration="6477000" />
       <workItem from="1686774103117" duration="6603000" />
+      <workItem from="1686781827339" duration="2108000" />
+      <workItem from="1686818980093" duration="16338000" />
+      <workItem from="1686836837794" duration="3433000" />
     </task>
     <task id="LOCAL-00001" summary="lesson4">
       <created>1683817800010</created>
@@ -245,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686244701496</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="miniProject(fetch:users,posts,comments)">
+      <created>1686782012186</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686782012186</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +274,8 @@
     <MESSAGE value="lesson9(DOM)" />
     <MESSAGE value="lesson10(events)" />
     <MESSAGE value="lesson12(fetch &amp; searchParams)" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson12(fetch &amp; searchParams)" />
+    <MESSAGE value="miniProject(fetch:users,posts,comments)" />
+    <option name="LAST_COMMIT_MESSAGE" value="miniProject(fetch:users,posts,comments)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
