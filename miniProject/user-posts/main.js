@@ -1,18 +1,31 @@
 const postId = new URL(location.href).searchParams.get('postId');
-// console.log(postId)
-// fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
 fetch(`https://jsonplaceholder.typicode.com/posts/${postId}`)
     .then(response => response.json())
     .then(post => {
         const infoContainer = document.getElementsByClassName('user-info-container')[0];
-        function createPostList(post) {
-            const list = document.createElement('ul');
-            list.innerHTML = `<li>ID: ${post.id}</li>
-                    <li>Title: ${post.title}</li>
-                    <li>Body: ${post.body}</li>`;
-            return list;
+        const postList = document.createElement('ul');
+        postList.classList.add('post-list')
+        for (const key in post) {
+            const liList = document.createElement('li');
+            liList.innerText = `${key}: ${post[key]}`;
+            postList.appendChild(liList)
         }
-        const creatList = createPostList(post);
-        infoContainer.appendChild(creatList)
+        infoContainer.appendChild(postList)
+    })
 
+fetch(`https://jsonplaceholder.typicode.com/posts/${postId}/comments`)
+    .then(response => response.json())
+    .then(comments => {
+        const containerComments = document.getElementsByClassName('comments-container')[0];
+            // const divUl = document.createElement('div');
+        for (const comment of comments) {
+            const commentList = document.createElement('ul');
+            commentList.classList.add('comment-list')
+            for (const key in comment) {
+                const listItem = document.createElement('li');
+                listItem.innerHTML = `${key}: ${comment[key]}`;
+                commentList.appendChild(listItem);
+            }
+            containerComments.appendChild(commentList);
+        }
     })

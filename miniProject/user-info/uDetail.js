@@ -32,40 +32,29 @@ function recursiveBuild(object, parent) {
         typeof object[key] === 'object'
             ? ulBuilder(key, object[key], parent)
             : liCreator(key, object[key], parent)
-
-
     }
 }
 
 const postButton = document.getElementById('post-button');
-postButton.addEventListener('click', ()=> {
-fetch(`https://jsonplaceholder.typicode.com/users/${userId}/posts`)
-    .then(response => response.json())
-    .then(posts => {
-        const postContainer = document.getElementsByClassName('posts-container')[0];
-        for (const post of posts) {
-            const postBlock = document.createElement('div');
-            postBlock.classList.add('block-posts');
-            postBlock.innerText = `TITLE:${post.title}`;
+postButton.addEventListener('click', () => {
+    fetch(`https://jsonplaceholder.typicode.com/users/${userId}/posts`)
+        .then(response => response.json())
+        .then(posts => {
+            const postContainer = document.getElementsByClassName('posts-container')[0];
+            for (const post of posts) {
+                const postBlock = document.createElement('div');
+                postBlock.classList.add('block-posts');
+                postBlock.innerText = `TITLE:${post.title}`;
 
-            const button = document.createElement('a');
-            button.classList.add('post-button');
-            button.textContent = 'post-detail';
-            postBlock.appendChild(button);
-            button.href = `../../user-posts/post-details.html/?postId=${post.id}`;
+                const button = document.createElement('a');
+                button.classList.add('post-button');
+                button.textContent = 'post-detail';
+                postBlock.appendChild(button);
+                button.href = `../../user-posts/post-details.html/?postId=${post.id}`;
 
-            // const button = document.createElement('button');
-            // button.classList.add('post-button')
-            // button.innerText = 'post-detail';
-            // postBlock.appendChild(button);
-            //
-            // button.onclick = () => {
-            //     location.href = `../../user-posts/post-details.html/?postId=${post.id}`;
-            // }
-
-            postContainer.appendChild(postBlock);
-        }
-    });
+                postContainer.appendChild(postBlock);
+            }
+        });
 })
 
 

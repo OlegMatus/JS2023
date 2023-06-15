@@ -1,9 +1,10 @@
 body {
-    background-color: beige;
     margin: 0;
     width: 100%;
     height: 100%;
+    background-color: cornsilk;
 }
+
 .users-container {
     margin: 0;
     background-color: beige;
@@ -12,23 +13,27 @@ body {
     /*box-sizing: border-box;*/
     display: flex;
     flex-flow: wrap;
-   justify-content: center;
+    justify-content: center;
 }
-.users-container>div {
+
+.users-container > div {
     margin: 0;
     width: 45vw;
     height: 10vh;
     background-color: aqua;
-    border: 5px solid red ;
+    border: 5px solid red;
     justify-content: center;
 }
-.users-container button{
+
+.users-container button {
     display: block;
 }
-.btn{
+
+.btn {
     display: flex;
     justify-content: center;
 }
+
 .info-container {
     width: 100%;
     height: 50%;
@@ -36,6 +41,7 @@ body {
     border: 2px solid black;
     color: bisque;
 }
+
 .posts-container {
     width: 100%;
     height: 45%;
@@ -46,14 +52,52 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
 }
-.posts-container .block-posts{
-width: 19.55%;
+
+.posts-container .block-posts {
+    width: 19.55%;
     border: 3px solid lightblue;
-   text-align: center;
+    text-align: center;
 }
+
 .post-button {
     font-size: 20px;
     width: 90%;
     height: 5%;
     justify-content: center;
 }
+
+.main {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: lightslategrey;
+}
+
+h1 {
+    margin: 0;
+    padding: 2%;
+
+}
+
+.user-info-container {
+    margin: 2%;
+    padding: 2%;
+    width: 90vw;
+    height: 20%;
+    background-color: dimgray;
+}
+
+.comments-container {
+    margin: 2%;
+    padding: 2%;
+    width: 90%;
+    height: 40%;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.comments-container .comment-list{
+    width: 20%;
+}
+
