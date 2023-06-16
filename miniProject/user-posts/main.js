@@ -17,7 +17,6 @@ fetch(`https://jsonplaceholder.typicode.com/posts/${postId}/comments`)
     .then(response => response.json())
     .then(comments => {
         const containerComments = document.getElementsByClassName('comments-container')[0];
-            // const divUl = document.createElement('div');
         for (const comment of comments) {
             const commentList = document.createElement('ul');
             commentList.classList.add('comment-list')

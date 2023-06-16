@@ -10,25 +10,19 @@ body {
     background-color: beige;
     width: 100vw;
     height: 100vh;
-    /*box-sizing: border-box;*/
     display: flex;
     flex-flow: wrap;
     justify-content: center;
 }
 
-.users-container > div {
-    margin: 0;
+.users-container .block {
+    margin: 15px;
     width: 45vw;
     height: 10vh;
     background-color: aqua;
     border: 5px solid red;
-    justify-content: center;
-}
 
-.users-container button {
-    display: block;
 }
-
 .btn {
     display: flex;
     justify-content: center;
@@ -47,7 +41,6 @@ body {
     height: 45%;
     background-color: yellow;
     border: 2px solid black;
-    /*box-sizing: border-box;*/
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -56,10 +49,13 @@ body {
 .posts-container .block-posts {
     width: 19.55%;
     border: 3px solid lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
-.post-button {
+#post-button {
     font-size: 20px;
     width: 90%;
     height: 5%;
